@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "427921719476",
+    "firebase_url": "https://mobilecenterdemo-fc40a.firebaseio.com",
+    "project_id": "mobilecenterdemo-fc40a",
+    "storage_bucket": "mobilecenterdemo-fc40a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427921719476:android:834ce73131ec447b",
+        "android_client_info": {
+          "package_name": "MobileCenterDemo.Android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427921719476-mam1tvime21flm7hrfll7cephq7p7f07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiHkmlM8XwgIqVKSlAQ-9yZxEIWBRP1R8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
