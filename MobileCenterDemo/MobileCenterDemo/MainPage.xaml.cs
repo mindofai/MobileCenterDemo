@@ -17,9 +17,49 @@ namespace MobileCenterDemo
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            var btn = (Grid)sender;
-            var color = btn.BackgroundColor == Color.Red ? "Red" : "Blue";
+            var btn = (Button)sender;
+            string color = GetBackgroundColorString(btn.BackgroundColor);
             Analytics.TrackEvent("Button", new Dictionary<string, string>() { { "Color", color } });
+        }
+
+        public string GetBackgroundColorString(Color color)
+        {
+            if (color == Color.Red)
+            {
+                return "Red";
+            }
+            else if (color == Color.Blue)
+            {
+                return "Blue";
+            }
+            else if (color == Color.Green)
+            {
+                return "Green";
+            }
+            else if (color == Color.Purple)
+            {
+                return "Purple";
+            }
+            else if (color == Color.Orange)
+            {
+                return "Orange";
+            }
+            else if (color == Color.Yellow)
+            {
+                return "Yellow";
+            }
+            else if (color == Color.Pink)
+            {
+                return "Pink";
+            }
+            else if (color == Color.Brown)
+            {
+                return "Brown";
+            }
+            else
+            {
+                return "Cyan";
+            }
         }
     }
 }
